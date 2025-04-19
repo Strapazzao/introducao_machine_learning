@@ -14,7 +14,8 @@ dependencies = [
     "pyarrow (==16.0.0)",
     "fastparquet (==2024.2.0)",
     "sqlalchemy (==2.0.30)",
-    "openpyxl (==3.1.0)"
+    "openpyxl (==3.1.0)",
+    "jupyter (>=1.1.1,<2.0.0)"
 ]
 
 
