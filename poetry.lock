@@ -1934,6 +1934,25 @@ files = [
 typing-extensions = {version = "*", markers = "python_version < \"3.11\""}
 
 [[package]]
+name = "mljar-scikit-plot"
+version = "0.3.12"
+description = "An intuitive library to add plotting functionality to scikit-learn objects."
+optional = false
+python-versions = ">=3.9"
+groups = ["main"]
+files = [
+    {file = "mljar-scikit-plot-0.3.12.tar.gz", hash = "sha256:4a093840bb90e2e31ca49ba22791cd88e74a0b0ff953441cfa9900fdb58c4964"},
+]
+
+[package.dependencies]
+joblib = ">=0.10"
+matplotlib = ">=1.4.0"
+scikit-learn = ">=1.1.0"
+
+[package.extras]
+testing = ["pytest"]
+
+[[package]]
 name = "nbclient"
 version = "0.10.2"
 description = "A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor."
@@ -3656,4 +3675,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.10"
-content-hash = "8fd94513bd0491a108608ca8c1701295eac96fae8d584fe3798f14e5ea1050eb"
+content-hash = "0e93c13c842465aee77af8342bc1bb7cd9a9ef8d608d36b097e18a0a9d794ecf"
